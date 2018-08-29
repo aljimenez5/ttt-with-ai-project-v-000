@@ -62,7 +62,7 @@ class Game
   end
 
   def play
-    until over?
+    until over? || "exit"
       turn
     end
     if draw?
